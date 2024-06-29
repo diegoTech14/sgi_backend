@@ -130,6 +130,7 @@ export class IncidentsService {
 
             return incidences;
         } catch (error) {
+            console.log(error)
             this.#response = false;
         }
     }
